@@ -1,7 +1,7 @@
 ---
 external help file: Microsoft.Exchange.ProvisioningAndMigration-Help.xml
 online version: https://docs.microsoft.com/powershell/module/exchange/start-migrationuser
-applicable: Exchange Online
+applicable: Exchange Online, Exchange Server 2019, Exchange Server 2016
 title: Start-MigrationUser
 schema: 2.0.0
 author: chrisda
@@ -12,11 +12,10 @@ ms.reviewer:
 # Start-MigrationUser
 
 ## SYNOPSIS
-This cmdlet is available only in the cloud-based service.
 
 Use the Start-MigrationUser cmdlet to start the migration of a user in an existing migration batch.
 
-**Note**: We recommend that you use the Exchange Online PowerShell V2 module to connect to Exchange Online PowerShell. For instructions, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+**Note**: If running this cmdlet for Exchange Onlie, we recommend that you use the Exchange Online PowerShell V2 module to connect to Exchange Online PowerShell. For instructions, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 For information about the parameter sets in the Syntax section below, see [Exchange cmdlet syntax](https://docs.microsoft.com/powershell/exchange/exchange-cmdlet-syntax).
 
